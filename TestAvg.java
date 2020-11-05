@@ -41,7 +41,7 @@ public class TestAvg
     
     @Test
     public void test3digits() {
-        assertEquals(100.0, Main.digitAvg(300));
+        assertEquals(1.0, Main.digitAvg(300));
     }
     
     @Test
@@ -51,7 +51,7 @@ public class TestAvg
 
     @Test
     public void test1digit(){
-      assertEquals(1.0, Main.digitAvg(3));
+      assertEquals(3.0, Main.digitAvg(3));
     }
     
     
