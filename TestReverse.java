@@ -44,22 +44,22 @@ public class TestReverse
     
     @Test
     public void test3digits() {
-        assertEquals(321, Main.reverse(123));
+        assertEquals(321, Main.reverseNum(123));
     }
     
     @Test
     public void test4digits(){
-      assertEquals(4321, Main.reverse(1234));
+      assertEquals(4321, Main.reverseNum(1234));
     }
 
     @Test
     public void test1digit(){
-      assertEquals(3, Main.reverse(3));
+      assertEquals(3, Main.reverseNum(3));
     }
 
     @Test
     public void testwithzeros(){
-      assertEquals(3001, Main.reverse(1003));
+      assertEquals(3001, Main.reverseNum(1003));
     }
     
     
